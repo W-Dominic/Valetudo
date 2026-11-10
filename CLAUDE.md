@@ -38,6 +38,6 @@ Dreame control is MIoT: properties and actions addressed by `siid`/`piid`/`aiid`
 
 ## Rules
 - Never commit or push; the user does that.
-- This fork is on GitHub. Keep personal or robot-identifying data (backups, keys, serials beyond the model prefix) out of tracked files.
+- This fork is public. LAN IPs and setup notes are fine in tracked files; never commit secrets (private keys, passphrases, Wi-Fi credentials, backup contents, the robot's cloud key or device ID).
 - Upstream does not accept contributions (see `CONTRIBUTING.md`). Changes here are for the user's own use.
 - Follow upstream code style: eslint config in `.eslintrc.json` and the generated `.automated`/`.pedantic` overrides; requires sorted (`sort-requires`), JSDoc types in the backend.
